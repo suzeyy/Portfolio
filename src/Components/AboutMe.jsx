@@ -56,7 +56,6 @@ const AboutMe = () => {
                 INSPIRE UVic
               </a>
               <p>
-                {/* Replace with your actual experience details */}
                 Apprentice Garage | Solution Developer
               </p>
               <p>
@@ -66,7 +65,6 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          {/* Education Box */}
           <div className="col-md-5">
             <div
               className="p-4 mb-4"
