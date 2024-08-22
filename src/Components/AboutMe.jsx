@@ -22,7 +22,7 @@ const AboutMe = () => {
             maxWidth: "900px",
             lineHeight: "1.6",
             color: "#bdc3c7",
-            marginTop: "-20px",
+            marginTop: "-10px",
           }}
         >
           Hello! I am a passionate Frontend Developer with a keen eye for design
@@ -35,13 +35,11 @@ const AboutMe = () => {
           exceed expectations.
         </p>
       </div>
-      {/* Experience and Education Boxes */}
-      <div className="container">
+      <div className="container-aboutme">
         <div className="row mx-5">
-          {/* Experience Box */}
           <div className="col-md-5 mx-5">
             <div
-              className="p-4 mb-4"
+              className="p-4 mb-5"
               style={{
                 backgroundColor: "#2c3e50",
                 borderRadius: "10px",
@@ -62,10 +60,10 @@ const AboutMe = () => {
                 Apprentice Garage | Solution Developer
               </p>
               <p>
-                  Applied advanced problem-solving skills to co-design and
-                  develop full-stack web applications using .NET and ReactJS,
-                  addressing complex challenges effectively.
-                  </p>
+                Applied advanced problem-solving skills to co-design and develop
+                full-stack web applications using .NET and ReactJS, addressing
+                complex challenges effectively.
+              </p>
             </div>
           </div>
           {/* Education Box */}
@@ -82,7 +80,10 @@ const AboutMe = () => {
               <h3 className="mb-2">Education</h3>
               <p>BSc. CSIT (Final Year) | Tribhuvan University</p>
               <p>
-              I am currently in my final year of pursuing a Bachelor's degree in Computer Science. My studies have equipped me with a solid foundation in software development, algorithms, data structures, and web technologies.
+                I am currently in my final year of pursuing a Bachelor's degree
+                in Computer Science. My studies have equipped me with a solid
+                foundation in software development, algorithms, data structures,
+                and web technologies.
               </p>
             </div>
           </div>

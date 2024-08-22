@@ -14,7 +14,12 @@ const Home = () => {
           <div className="col-md-6 text-center text-md-start">
             <div
               className="rounded-circle mb-4 mb-md-0"
-              style={{ width: "350px", height: "350px", borderColor: "#fff" , marginTop: "-75px"}}
+              style={{
+                width: "350px",
+                height: "350px",
+                borderColor: "#fff",
+                marginTop: "-75px",
+              }}
             >
               <img
                 src={profileImage}
@@ -45,19 +50,19 @@ const Home = () => {
                 />
               </p>
               <p className="mt-4" style={{ color: "#bdc3c7" }}>
-                A Software Developer, specializing in technical education
+                A Solution Developer, specializing in technical education
                 through hands-on learning and application development.
               </p>
-              {/* Social Media Icons */}
+
               <div className="mt-4">
                 <a
-                  href="https://www.linkedin.com/in/your-linkedin"
+                  href="https://www.linkedin.com/in/sujana-pyakurel-bab77122a/"
                   className="btn btn-outline-light mx-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a
-                  href="https://github.com/your-github"
+                  href="https://github.com/suzeyy"
                   className="btn btn-outline-light mx-2"
                 >
                   <i className="fab fa-github"></i>

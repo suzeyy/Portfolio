@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import React from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
-    const linkStyle = {
-        cursor: 'pointer',
-        color: 'white' 
-      };
+  const linkStyle = {
+    cursor: "pointer",
+    color: "white",
+  };
   return (
     <header className="bg-dark text-light py-3">
       <div className="container d-flex justify-content-center align-items-center">
@@ -28,6 +28,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 className="nav-link text-light"
+                style={linkStyle}
               >
                 Skills
               </Link>
@@ -38,6 +39,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 className="nav-link text-light"
+                style={linkStyle}
               >
                 Projects
               </Link>
@@ -48,6 +50,7 @@ const Header = () => {
                 smooth={true}
                 duration={200}
                 className="nav-link text-light"
+                style={linkStyle}
               >
                 Contact Me
               </Link>
