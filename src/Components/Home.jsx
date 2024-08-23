@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-6 text-center text-md-start">
+          <div className="col-md-6 text-center ">
             <div
               className="rounded-circle mb-4 mb-md-0"
               style={{
@@ -19,6 +19,7 @@ const Home = () => {
                 height: "350px",
                 borderColor: "#fff",
                 marginTop: "-75px",
+                marginLeft: "40px",
               }}
             >
               <img
@@ -30,7 +31,10 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="text-center tracking-tight">
+            <div
+              className="text-center tracking-tight"
+              style={{  marginTop: "-50px" }}
+            >
               <div className="h2" style={{ color: "#bdc3c7" }}>
                 Hello, I'm
               </div>
@@ -49,12 +53,12 @@ const Home = () => {
                   repeat={Infinity}
                 />
               </p>
-              <p className="mt-4" style={{ color: "#bdc3c7" }}>
+              <p className="mt-4" style={{ color: "#bdc3c7"}}>
                 A Solution Developer, specializing in technical education
                 through hands-on learning and application development.
               </p>
 
-              <div className="mt-4">
+              <div className="mt-0">
                 <a
                   href="https://www.linkedin.com/in/sujana-pyakurel-bab77122a/"
                   className="btn btn-outline-light mx-2"

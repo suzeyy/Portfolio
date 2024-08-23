@@ -4,13 +4,13 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="d-flex flex-column align-items-center justify-content-center mt-2"
+      className="d-flex flex-column align-items-center justify-content-center mt-1"
       style={{ minHeight: "100vh", backgroundColor: "#222b30", color: "#333" }}
     >
-      <div className="text-center mb-4">
+      <div className="text-center mb-5">
         <h2
           className="display-4"
-          style={{ color: "#bdc3c7", marginTop: "-80px" }}
+          style={{ color: "#bdc3c7", marginTop: "50px" }}
         >
           About Me
         </h2>
@@ -22,7 +22,7 @@ const AboutMe = () => {
             maxWidth: "900px",
             lineHeight: "1.6",
             color: "#bdc3c7",
-            marginTop: "-10px",
+            marginTop: "20px",
           }}
         >
           Hello! I am a passionate Frontend Developer with a keen eye for design
@@ -36,8 +36,8 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="container-aboutme">
-        <div className="row mx-5">
-          <div className="col-md-5 mx-5">
+        <div className=" d-flex d-grid gap-5   ">
+          <div className=" ">
             <div
               className="p-4 mb-5"
               style={{
@@ -45,6 +45,8 @@ const AboutMe = () => {
                 borderRadius: "10px",
                 color: "#bdc3c7",
                 minHeight: "200px",
+                width: "500px",
+                height: "250px",
               }}
             >
               <h3 className="mb-2">Experience</h3>
@@ -55,9 +57,7 @@ const AboutMe = () => {
               >
                 INSPIRE UVic
               </a>
-              <p>
-                Apprentice Garage | Solution Developer
-              </p>
+              <p>Apprentice Garage | Solution Developer</p>
               <p>
                 Applied advanced problem-solving skills to co-design and develop
                 full-stack web applications using .NET and ReactJS, addressing
@@ -65,7 +65,7 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="">
             <div
               className="p-4 mb-4"
               style={{
@@ -73,6 +73,8 @@ const AboutMe = () => {
                 borderRadius: "10px",
                 color: "#bdc3c7",
                 minHeight: "200px",
+                width: "500px",
+                height: "250px",
               }}
             >
               <h3 className="mb-2">Education</h3>

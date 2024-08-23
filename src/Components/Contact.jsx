@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="d-flex flex-column align-items-center justify-content-center mt-2"
+      className="d-flex flex-column align-items-center justify-content-center mt-1"
       style={{
         minHeight: "100vh",
         backgroundColor: "#222b30",

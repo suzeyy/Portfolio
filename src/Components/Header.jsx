@@ -7,8 +7,8 @@ const Header = () => {
     color: "white",
   };
   return (
-    <header className="bg-dark text-light py-3">
-      <div className="container d-flex justify-content-center align-items-center">
+    <header className="bg-dark text-light" style={{height: "66px", display: "flex", alignItems: "center"}}>
+      <div className="container d-flex justify-content-center align-items-center ">
         <nav>
           <ul className="nav">
             <li className="nav-item">
