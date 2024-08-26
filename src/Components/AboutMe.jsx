@@ -36,23 +36,20 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="container-aboutme">
-        <div className=" d-flex d-grid gap-5   ">
-          <div className=" ">
+        <div className="row m-3">
+          <div className="col-md-6 px-sm-3 py-2">
             <div
-              className="p-4 mb-5"
+              className="p-4 mb-2 "
               style={{
                 backgroundColor: "#2c3e50",
                 borderRadius: "10px",
                 color: "#bdc3c7",
-                minHeight: "200px",
-                width: "500px",
-                height: "250px",
               }}
             >
               <h3 className="mb-2">Experience</h3>
               <a
                 href="https://inspireuvic.org/"
-                className="company"
+                className=""
                 style={{ color: "#bdc3c7" }}
               >
                 INSPIRE UVic
@@ -65,16 +62,13 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          <div className="">
+          <div className="col-md-6 px-sm-3 py-2">
             <div
-              className="p-4 mb-4"
+              className="p-4 mb-2"
               style={{
                 backgroundColor: "#2c3e50",
                 borderRadius: "10px",
                 color: "#bdc3c7",
-                minHeight: "200px",
-                width: "500px",
-                height: "250px",
               }}
             >
               <h3 className="mb-2">Education</h3>

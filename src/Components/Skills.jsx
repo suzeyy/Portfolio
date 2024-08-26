@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="d-flex flex-column align-items-center justify-content-center mt-1"
+      className="justify-content-center mt-3"
       style={{ minHeight: "100vh", backgroundColor: "#222b30", color: "#333" }}
     >
       <div className="text-center">
@@ -28,9 +28,8 @@ const Skills = () => {
         >
           Skills
         </h2>
-
-        <div className="d-flex flex-wrap justify-content-center mx-2 p-5">
-          <div className="text-center mx-5">
+        <div className="row justify-content-center p-md-5 m-1">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faHtml5}
               size="8x"
@@ -39,7 +38,7 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>HTML</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faCss3Alt}
               size="8x"
@@ -48,7 +47,7 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>CSS</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faJsSquare}
               size="8x"
@@ -57,7 +56,7 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>JavaScript</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faReact}
               size="8x"
@@ -66,7 +65,7 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>ReactJS</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faMicrosoft}
               size="8x"
@@ -75,11 +74,7 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>.NET</p>
           </div>
-        </div>
-
-        {/* Second Row for Flutter, C, and C++ Icons */}
-        <div className="d-flex flex-wrap justify-content-center mt-5">
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <FontAwesomeIcon
               icon={faFlutter}
               size="8x"
@@ -88,18 +83,18 @@ const Skills = () => {
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>Flutter</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <img
-              src={C} // Path to your C icon
+              src={C}
               alt="C"
               style={{ width: "128px", height: "128px" }}
               title="C"
             />
             <p style={{ color: "#bdc3c7", marginTop: "10px" }}>C</p>
           </div>
-          <div className="text-center mx-5">
+          <div className="col-md-3 col-5 p-3">
             <img
-              src={cPlus} // Path to your C++ icon
+              src={cPlus}
               alt="C++"
               style={{ width: "128px", height: "128px" }}
               title="C++"

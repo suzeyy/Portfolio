@@ -7,13 +7,19 @@
   margin-right: 30px;
 } */
 
-.container-aboutme {
-  margin-top: 100px;
-  display: flex;
+.app{
+ min-width: 100%;
 }
 
-.container-contact {
-  margin-right: 25px;
+.section {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.container-aboutme {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
 }
 
 .mail {

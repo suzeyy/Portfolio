@@ -11,14 +11,14 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header />
       <Home />
       <AboutMe />
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
 
