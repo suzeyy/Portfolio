@@ -56,12 +56,12 @@ const Home = () => {
                   repeat={Infinity}
                 />
               </p>
-              <p className="mt-4" style={{ color: "#bdc3c7" }}>
+              <p className="mt-4 mb-5" style={{ color: "#bdc3c7" }}>
                 A Solution Developer, specializing in technical education
                 through hands-on learning and application development.
               </p>
 
-              <div className="mt-0">
+              <div className="mt-0 mb-3 ">
                 <a
                   href="https://www.linkedin.com/in/sujana-pyakurel-bab77122a/"
                   className="btn btn-outline-light mx-2"

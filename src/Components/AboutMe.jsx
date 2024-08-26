@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="d-flex flex-column align-items-center justify-content-center mt-1"
+      className="d-flex flex-column align-items-center mt-1"
       style={{ minHeight: "100vh", backgroundColor: "#222b30", color: "#333" }}
     >
-      <div className="text-center mb-5">
+      <div className="text-center mb-1">
         <h2
           className="display-4"
           style={{ color: "#bdc3c7", marginTop: "50px" }}

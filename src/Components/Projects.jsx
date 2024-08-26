@@ -11,25 +11,25 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="d-flex flex-column align-items-center mt-1 justify-content-center"
+      className="d-flex flex-column align-items-center mt-1 "
       style={{
         // height: "100vh",
         backgroundColor: "#222b30",
         color: "#333",
-        // marginTop: "20em",
+        marginBottom: "0px",
         minHeight: "100vh",
       }}
     >
       <div>
         <div
-          className="text-center mt-4"
+          className="text-center"
           style={{ color: "#bdc3c7", marginBottom: "2rem" }}
         >
-          <h2 className="display-4">Projects</h2>
+          <h2 className="display-4" style={{paddingTop: "50px", marginBottom: "120px"}}>Projects</h2>
         </div>
 
-        <div className="container d-flex align-items-center justify-content-center">
-          <div className="row">
+        <div className="container d-flex align-items-center justify-content-center ">
+          <div className="row ">
             <div className="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
               <div
                 className="p-4 h-100"

@@ -12,6 +12,7 @@ const Header = () => {
   const linkStyle = {
     cursor: "pointer",
     color: "white",
+    margin: "8px",
   };
 
   return (

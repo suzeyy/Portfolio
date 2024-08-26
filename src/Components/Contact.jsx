@@ -18,7 +18,7 @@ const Contact = () => {
           className="display-4"
           style={{
             color: "#bdc3c7",
-            marginTop: "20px",
+            paddingTop: "10px",
             marginBottom: "50px",
           }}
         >
@@ -28,15 +28,16 @@ const Contact = () => {
 
       <div className="container-contact">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-10 text-center">
+          <div className="col-md-10 mx-sm-3px text-center">
             <div
               className="d-flex flex-column align-items-center justify-content-center mb-5 flex-wrap"
               style={{
                 backgroundColor: "#2c3e50",
                 borderRadius: "10px",
                 color: "#bdc3c7",
-                padding: "20px",
+                // padding: "10px",
                 minHeight: "200px",
+                margin: "20px",
               }}
             >
               <FontAwesomeIcon icon={faEnvelope} size="3x" />
@@ -82,6 +83,7 @@ const Contact = () => {
                 borderRadius: "10px",
                 color: "#bdc3c7",
                 minHeight: "200px",
+                margin: "20px",
               }}
             >
               <FontAwesomeIcon icon={faPhone} size="3x" />
@@ -89,7 +91,7 @@ const Contact = () => {
               <p className="phone">
                 <a
                   href="tel:(+977)9843888957"
-                  style={{ color: "#bdc3c7", textDecoration: "none" }}
+                  style={{ color: "#bdc3c7", textDecoration: "none"}}
                 >
                   (+977)9843888957
                 </a>

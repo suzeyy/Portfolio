@@ -14,16 +14,18 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="justify-content-center mt-3"
+      className="justify-content-center mt-1"
       style={{ minHeight: "100vh", backgroundColor: "#222b30", color: "#333" }}
     >
-      <div className="text-center">
+      <div className="text-center 
+      ">
         <h2
           className="display-4"
           style={{
             color: "#bdc3c7",
-            marginTop: "20px",
             marginBottom: "50px",
+            // marginTop: "50px"
+            paddingTop: "50px"
           }}
         >
           Skills
