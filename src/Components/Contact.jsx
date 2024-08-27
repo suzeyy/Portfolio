@@ -27,7 +27,7 @@ const Contact = () => {
       </div>
 
       <div className="container-contact">
-        <div className="row d-flex justify-content-center">
+        <div className="row d-flex justify-content-center m-0">
           <div className="col-md-10 mx-sm-3px text-center">
             <div
               className="d-flex flex-column align-items-center justify-content-center mb-5 flex-wrap"
@@ -91,7 +91,7 @@ const Contact = () => {
               <p className="phone">
                 <a
                   href="tel:(+977)9843888957"
-                  style={{ color: "#bdc3c7", textDecoration: "none"}}
+                  style={{ color: "#bdc3c7", textDecoration: "none" }}
                 >
                   (+977)9843888957
                 </a>

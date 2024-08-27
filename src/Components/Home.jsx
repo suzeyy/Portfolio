@@ -20,7 +20,7 @@ const Home = () => {
                 height: "350px",
                 borderColor: "#fff",
                 marginTop: "0",
-                overflow: "hidden"
+                overflow: "hidden",
               }}
             >
               <img
@@ -60,6 +60,14 @@ const Home = () => {
                 A Solution Developer, specializing in technical education
                 through hands-on learning and application development.
               </p>
+
+              <a
+                className="btn btn-outline-light mx-2 mb-4"
+                download={"SUJANA PYAKUREL.pdf"}
+                href="./SUJANA PYAKUREL.pdf"
+              >
+                My Resume
+              </a>
 
               <div className="mt-0 mb-3 ">
                 <a
